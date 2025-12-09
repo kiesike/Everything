@@ -1,0 +1,68 @@
+RAW INPUT: {"class_id":5,"class_code":"S9TRZZ3","title":"we shall check","questions":[{"type":"identification","text":"checkingggg","correct":"chechhnyaa","choices":null}]}
+EXTRACTED VALUES: class_id=5, class_code=S9TRZZ3, teacher_id=2, title=we shall check
+DB FETCH CLASS: {"class_code":"S9TRZZ3","teacher_id":2}
+QUIZ INSERTED: quiz_id=32, class_id=5
+RAW INPUT: {"class_id":5,"class_code":"S9TRZZ3","title":"is it still working?","questions":[{"type":"identification","text":"yep working","correct":"is he telling the truth?","choices":null}]}
+EXTRACTED VALUES: class_id=5, class_code=S9TRZZ3, teacher_id=2, title=is it still working?
+DB FETCH CLASS: {"class_code":"S9TRZZ3","teacher_id":2}
+QUIZ INSERTED: quiz_id=33, class_id=5
+RAW INPUT: {"class_id":7,"class_code":"5UNYDVM","title":"can i create?","questions":[{"type":"identification","text":"shii, hopefully yes","correct":"did it work?","choices":null}]}
+EXTRACTED VALUES: class_id=7, class_code=5UNYDVM, teacher_id=2, title=can i create?
+DB FETCH CLASS: {"class_code":"5UNYDVM","teacher_id":2}
+QUIZ INSERTED: quiz_id=34, class_id=7
+RAW INPUT: {"class_id":1,"class_code":"7TXH4GH","title":"introduction","questions":[{"type":"multiple","text":"i love","correct":"D","choices":["you","me","her","berna"]},{"type":"truefalse","text":"mahusay hi bernadette","correct":"True","choices":null}]}
+EXTRACTED VALUES: class_id=1, class_code=7TXH4GH, teacher_id=7, title=introduction
+DB FETCH CLASS: {"class_code":"7TXH4GH","teacher_id":7}
+ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`quizmaker`.`quizzes`, CONSTRAINT `quizzes_ibfk_2` FOREIGN KEY (`teacher_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+RAW INPUT: {"class_id":2,"class_code":"5GZPPAE","title":"quiz 1","questions":[{"type":"multiple","text":"mahusay hi","correct":"A","choices":["bernadette","berna","regir","ms campo"]},{"type":"truefalse","text":"i love bernadette","correct":"True","choices":null}]}
+EXTRACTED VALUES: class_id=2, class_code=5GZPPAE, teacher_id=2, title=quiz 1
+DB FETCH CLASS: {"class_code":"5GZPPAE","teacher_id":2}
+QUIZ INSERTED: quiz_id=20, class_id=2
+RAW INPUT: {"class_id":3,"class_code":"XMPZXEB","title":"title","questions":[{"type":"multiple","text":"hahaha","correct":"C","choices":["1","2","4","3"]}]}
+EXTRACTED VALUES: class_id=3, class_code=XMPZXEB, teacher_id=11, title=title
+DB FETCH CLASS: {"class_code":"XMPZXEB","teacher_id":11}
+QUIZ INSERTED: quiz_id=21, class_id=3
+RAW INPUT: {"class_id":4,"class_code":"276F025","title":"quiz 1","questions":[{"type":"multiple","text":"mahal kita","correct":"B","choices":["berna","bernadette","regir","my bebe"]}]}
+EXTRACTED VALUES: class_id=4, class_code=276F025, teacher_id=14, title=quiz 1
+DB FETCH CLASS: {"class_code":"276F025","teacher_id":14}
+QUIZ INSERTED: quiz_id=22, class_id=4
+RAW INPUT: {"class_id":4,"class_code":"276F025","title":"quiz 2","questions":[{"type":"truefalse","text":"i love bernadette","correct":"True","choices":null}]}
+EXTRACTED VALUES: class_id=4, class_code=276F025, teacher_id=14, title=quiz 2
+DB FETCH CLASS: {"class_code":"276F025","teacher_id":14}
+QUIZ INSERTED: quiz_id=23, class_id=4
+RAW INPUT: {"class_id":5,"class_code":"49B79C2","title":"English test","questions":[{"type":"identification","text":"1 + 1?","correct":"Extrafraligicoius coillystuffy damn bro , shii","choices":null},{"type":"truefalse","text":"this sis trueeeee","correct":"False","choices":null}]}
+EXTRACTED VALUES: class_id=5, class_code=49B79C2, teacher_id=16, title=English test
+DB FETCH CLASS: {"class_code":"49B79C2","teacher_id":16}
+QUIZ INSERTED: quiz_id=24, class_id=5
+RAW INPUT: {"class_id":5,"class_code":"49B79C2","title":"testing","questions":[{"type":"identification","text":"testing","correct":"testing","choices":null}]}
+EXTRACTED VALUES: class_id=5, class_code=49B79C2, teacher_id=16, title=testing
+DB FETCH CLASS: {"class_code":"49B79C2","teacher_id":16}
+QUIZ INSERTED: quiz_id=25, class_id=5
+RAW INPUT: {"class_id":5,"class_code":"49B79C2","title":"Can i make twoo?","questions":[{"type":"identification","text":"hopefully bruh","correct":"we shall seeeeee","choices":null}]}
+EXTRACTED VALUES: class_id=5, class_code=49B79C2, teacher_id=16, title=Can i make twoo?
+DB FETCH CLASS: {"class_code":"49B79C2","teacher_id":16}
+QUIZ INSERTED: quiz_id=26, class_id=5
+RAW INPUT: {"class_id":5,"class_code":"49B79C2","title":"IT WORKS BBRUHHHH","questions":[{"type":"identification","text":"HELL YEAHH RUHH","correct":"GAWD DAYUMM BRUHH","choices":null}]}
+EXTRACTED VALUES: class_id=5, class_code=49B79C2, teacher_id=16, title=IT WORKS BBRUHHHH
+DB FETCH CLASS: {"class_code":"49B79C2","teacher_id":16}
+QUIZ INSERTED: quiz_id=27, class_id=5
+RAW INPUT: {"class_id":6,"class_code":"793DDEC","title":"Science tessst","questions":[{"type":"identification","text":"testingggg","correct":"tingggtesss","choices":null}]}
+EXTRACTED VALUES: class_id=6, class_code=793DDEC, teacher_id=16, title=Science tessst
+DB FETCH CLASS: {"class_code":"793DDEC","teacher_id":16}
+QUIZ INSERTED: quiz_id=28, class_id=6
+RAW INPUT: {"class_id":6,"class_code":"793DDEC","title":"does it workkk","questions":[{"type":"identification","text":"fuckk yuuuhhh","correct":"it dussssss","choices":null}]}
+EXTRACTED VALUES: class_id=6, class_code=793DDEC, teacher_id=16, title=does it workkk
+DB FETCH CLASS: {"class_code":"793DDEC","teacher_id":16}
+QUIZ INSERTED: quiz_id=29, class_id=6
+RAW INPUT: {"class_id":7,"class_code":"FB402BD","title":"Babymetal Test","questions":[{"type":"multiple","text":"Who is the main Vocalist of Babymetal?","correct":"A","choices":["Suzuka Nakamoto","Moa Kikuchi","Yui MIzuno","Momo Okazaki"]},{"type":"multiple","text":"Who left Babymetal?","correct":"B","choices":["Suzuka Nakamoto","Moa Kikuchi","Yui Mizuno","Momo Okazaki"]},{"type":"identification","text":"Who is the Main death Growler of Babymetal?","correct":"MomoOkazaki","choices":null}]}
+EXTRACTED VALUES: class_id=7, class_code=FB402BD, teacher_id=16, title=Babymetal Test
+DB FETCH CLASS: {"class_code":"FB402BD","teacher_id":16}
+QUIZ INSERTED: quiz_id=30, class_id=7
+RAW INPUT: {"class_id":7,"class_code":"FB402BD","title":"test1","questions":[{"type":"identification","text":"adsads","correct":"asdsad","choices":null}]}
+EXTRACTED VALUES: class_id=7, class_code=FB402BD, teacher_id=16, title=test1
+DB FETCH CLASS: {"class_code":"FB402BD","teacher_id":16}
+QUIZ INSERTED: quiz_id=31, class_id=7
+RAW INPUT: {"class_id":7,"class_code":"FB402BD","title":"qewqweq","questions":[{"type":"identification","text":"eqwqw","correct":"","choices":null}]}
+EXTRACTED VALUES: class_id=7, class_code=FB402BD, teacher_id=16, title=qewqweq
+DB FETCH CLASS: {"class_code":"FB402BD","teacher_id":16}
+QUIZ INSERTED: quiz_id=32, class_id=7
